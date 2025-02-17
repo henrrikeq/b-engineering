@@ -23,13 +23,13 @@ Ensure you have the following installed on your system:
 ### 📥 Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/landing-page-template.git
+git clone https://github.com/gorillagh/landing-page-setup.git
 ```
 
 ### 📂 Navigate into the Project Directory
 
 ```sh
-cd landing-page-template
+cd landing-page-setup
 ```
 
 ### 📦 Install Dependencies
@@ -62,19 +62,15 @@ landing-page-template/
 │   ├── assets/          # Static assets (images, icons, etc.)
 │   ├── components/      # Reusable UI components
 │   ├── pages/           # Page components
+│   ├── layouts/           # Page layouts
 │   ├── App.jsx          # Root component
 │   ├── main.jsx         # React entry point
 ├── public/              # Static files
 ├── index.html           # Main HTML file
-├── tailwind.config.js   # TailwindCSS configuration
 ├── package.json         # Project dependencies & scripts
 ├── vite.config.js       # Vite configuration
 └── README.md            # Project documentation
 ```
-
-## 🤝 Contributing
-
-If you’d like to contribute, feel free to fork the repository and submit a pull request.
 
 ## 📜 License
 
