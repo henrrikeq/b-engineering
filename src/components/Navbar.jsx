@@ -88,12 +88,7 @@ const Navbar = () => {
         </div>
 
         {/* Free Consultation Button for Large Screens */}
-        <button
-          onClick={handleFreeConsultationClick}
-          className="hidden lg:flex mr-4 md:mr-10 border-2 px-4 py-2 font-semibold bg-[#AFA939] border-[#AFA939] text-white hover:bg-[#8c8305] hover:border-[#8c8305] rounded-md transition duration-300"
-        >
-          Request a Quote
-        </button>
+        
       </div>
 
       {/* Mobile and Medium Menu (only shown on small and medium screens) */}

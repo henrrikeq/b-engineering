@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row text-white justify-center items-start md:items-start px-4 md:px-0">
   <div className="w-full md:w-[16rem] mb-8 md:mb-0 md:mr-5">
     <p className="text-[1.5rem] font-extrabold mb-8 text-[#FFFFFF]">
-      PRO-ATTORNEY
+      B-ENGINEERING
     </p>
     
     <p className="text-base mt-8 text-gray-400 font-semibold">
@@ -31,7 +31,7 @@ const Footer = () => {
   </div>
   <div className="w-full md:w-[15rem] mb-8 md:mb-0 md:ml-6">
     <p className="text-[20px] font-semibold mb-8 text-[#F2F2F3] mt-1">
-      Practice Areas
+      Services
     </p>
     <div className="font-semibold text-[#F2F2F3]">
       {[

@@ -3,31 +3,24 @@ import Navbar from "../../../components/Navbar";
 
 const Hero = () => {
   return (
-    <div className="img pt-5">
-      
-      <div className=" flex flex-col justify-center items-center md:items-start flex-grow w-full">
-        <div className="flex flex-col m-4 md:m-10 lg:ml-36 lg:mt-16 w-full max-w-lg space-y-6 px-4 mt-36">
-          <p className="text-[#AFA939] text-[14px] font-extrabold text-left">
-            WELCOME TO PRO-ATTORNEY
-          </p>
-          <p className="text-white text-[3rem] md:text-[3rem] lg:text-[3rem] font-bold leading-tight text-left">
-            Attorneys Fighting For Your{" "}
-            {/* <span className="text-[#AFA939]">
-              < TypingEffect
-                text={["Custody.", "Rights.", "Case."]}
-                speed={120}
-                eraseDelay={2000}
-              />
-            </span> */}
-          </p>
-          <p className="text-[14px] md:text-[16px] text-[#969696] font-semibold leading-relaxed text-left">
-            We have helped thousands of people to get relief from disputes and wrongful denials. Now they trust Pro-attorneys.
-          </p>
-          <div className="flex items-center justify-start border-2 px-5 py-2 text-white font-semibold bg-[#AFA939] border-[#AFA939] w-[12rem] md:w-[14rem] rounded-md mt-4 hover:bg-[#8c8305] hover:border-[#8c8305] transition duration-300">
-            <p>Get Legal Advice</p>
+    <div className="img pt-5 flex justify-center items-center min-h-screen">
+
+      <div className="flex flex-col justify-center items-center w-full px-4">
+        <div className="flex flex-col items-center text-center m-4 md:m-10 lg:mt-16 w-full max-w-2xl space-y-6 px-4">
+          <p className="border-[1.5px] rounded-full w-[10rem] border-[#ffa62b]"></p>
+          
+          {/* Adjusted Text for Centering */}
+          <div className="text-white text-[3rem] font-bold leading-tight space-y-2">
+            <p>WE WILL BE HAPPY</p>
+            <p>TO TAKE CARE OF YOUR WORK</p>
+          </div>
+
+          <div className="flex items-center justify-center border-2 px-5 py-3 text-[#3d424a] font-extrabold text-[13px] bg-[#ffa62b] border-[#ffa62b] w-[12rem] md:w-[14rem] mt-4 hover:bg-[#ffa62b] hover:border-[#ffa62b] transition duration-300">
+            <p>REQUEST A QUOTE</p>
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

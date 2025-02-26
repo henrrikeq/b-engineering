@@ -7,21 +7,21 @@ const AboutProduct = () => {
   const cardData = [
     {
       icon: <PiBuildingOffice />,
-      title: "Fight for Justice",
+      title: "Construction",
       description:
         "Seeking justice in the world is a significant emotional and investment when we follow this call.",
       hoverIcon: <BsArrowRightShort />,
     },
     {
       icon: <PiBuildingOffice />,
-      title: "Build Strong Cases",
+      title: "Architecture",
       description:
         "We prepare strong cases by gathering all the necessary information and presenting it convincingly.",
       hoverIcon: <BsArrowRightShort />,
     },
     {
       icon: <PiBuildingOffice />,
-      title: "Expert Legal Advice",
+      title: "Mechanical",
       description:
         "Our team provides expert legal advice to help you navigate complex legal challenges with ease.",
       hoverIcon: <BsArrowRightShort />,
@@ -41,7 +41,7 @@ const AboutProduct = () => {
       <div className="flex flex-col md:flex-col lg:flex-row">
         {/* Left Section */}
         <div className="lg:ml-32 ml-0 md:ml-0 md:w-[43rem] lg:w-1/3 p-4 md:pl-12 md:pt-12 mb-6 md:mb-0">
-          <p className="text-[#AFA939] text-sm font-extrabold">Services</p>
+          <p className="text-[#ffa62b] text-sm font-extrabold">Services</p>
           <p className="text-3xl font-extrabold mt-2 text-[#494949]">
             Why Select Us?
           </p>
@@ -50,7 +50,7 @@ const AboutProduct = () => {
           </p>
           <button
             onClick={handleFreeConsultationClick}
-            className="border-2 px-4 py-3 text-white bg-[#AFA939] border-[#AFA939] mt-6 rounded-sm font-semibold hover:bg-[#8c8305] hover:border-[#8c8305]"
+            className="border-2 px-4 py-3 bg-[#ffa62b] border-[#ffa62b] mt-6 rounded-sm font-extrabold hover:bg-[#ffa62b] hover:border-[#ffa62b] text-[#3d424a]"
           >
             Free Consultation
           </button>
@@ -59,7 +59,7 @@ const AboutProduct = () => {
         {/* Right Section */}
         <div className="md:w-full flex flex-col items-center mb-10 ml- mr-">
           {/* Top Bar */}
-          <div className="border-2 bg-[#AFA939] border-[#AFA939] h-[130vh] md:h-32 w-full md:w-[93vw] lg:w-[56vw]">
+          <div className="border-2 bg-[#ffa62b] border-[#ffa62b] h-[130vh] md:h-32 w-full md:w-[93vw] lg:w-[56vw]">
             {/* This div's height is extended only on small screens */}
           </div>
 
@@ -71,7 +71,7 @@ const AboutProduct = () => {
                 className="bs relative flex flex-col items-center border-2 lg:h-[20rem] lg:w-56 w-80 md:h-[21rem] md:w-48 bg-white border-white shadow-md rounded-[3px] p-4 group mt-6"
               >
                 {/* Main Box Content */}
-                <p className="text-[30px] mt-1 border-2 px-7 py-7 bg-[#F2F2F2] border-[#F2F2F2] rounded-full font-bold mb-3 text-[#AFA939]">
+                <p className="text-[30px] mt-1 border-2 px-7 py-7 bg-[#F2F2F2] border-[#F2F2F2] rounded-full font-bold mb-3 text-[#ffa62b]">
                   {card.icon}
                 </p>
                 <p className="text-[18px] font-semibold mb-2">{card.title}</p>
@@ -80,7 +80,7 @@ const AboutProduct = () => {
                 </p>
 
                 {/* Hover Effect Icon */}
-                <div className="absolute bottom-[-1.5rem] border-2 py-3 px-3 rounded-full bg-[#AFA939] border-[#AFA939] opacity-0 transform scale-0 group-hover:opacity-100 group-hover:scale-100 transition duration-300">
+                <div className="absolute bottom-[-1.5rem] border-2 py-3 px-3 rounded-full bg-[#ffa62b] border-[#ffa62b] opacity-0 transform scale-0 group-hover:opacity-100 group-hover:scale-100 transition duration-300">
                   <p className="text-[20px] text-white">{card.hoverIcon}</p>
                 </div>
               </div>
