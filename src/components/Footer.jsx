@@ -11,11 +11,11 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row text-white justify-center items-start md:items-start px-4 md:px-0">
   <div className="w-full md:w-[16rem] mb-8 md:mb-0 md:mr-5">
     <p className="text-[1.5rem] font-extrabold mb-8 text-[#FFFFFF]">
-      B-ENGINEERING
+      Buabey-Engineering
     </p>
     
     <p className="text-base mt-8 text-gray-400 font-semibold">
-    Choose us for our unwavering commitment to your case, expert legal knowledge, and a track record of delivering successful, client-focused results.
+    Choose us for our expert craftsmanship, innovation, and reliability to deliver high-quality agricultural machinery tailored for the palm oil industry.
     </p>
     <div className="flex gap-5 mt-12">
       <p className="flex justify-center items-center text-[20px] border-2 w-9 h-9 rounded-full bg-[#2D333C] border-[#2D333C]">
@@ -35,14 +35,11 @@ const Footer = () => {
     </p>
     <div className="font-semibold text-[#F2F2F3]">
       {[
-        "Family Law",
-        "Business Law",
-        "Insurance Law",
-        "Criminal Law",
-        "Drug Offenses",
-        "Fire accident",
-        "Employment Law",
-        "Property Law",
+        "Machinery Fabrication",
+        "Welding & Metal Services",
+        "Machine Repairs & Maintenance",
+        "Equipment Installation & Setup",
+
       ].map((area, index) => (
         <div key={index} className="flex gap-3 mb-3">
           <p className="text-[12px] pt-1.5">
@@ -63,21 +60,21 @@ const Footer = () => {
           <IoLocationSharp />
         </p>
         <p className="text-gray-400 font-semibold">
-          100 wood street London, 
-          EC2V 7AN, UK
+          29 ABABIO TAKOR LN, 
+          CM-0376-9144
         </p>
       </div>
       <div className="flex gap-5 text-[#F2F2F3] font-semibold mb-3">
         <p className="pt-1.5">
           <BsTelephoneFill />
         </p>
-        <p>+44 20 3885 0518</p>
+        <p>0536978573/ 0559569906</p>
       </div>
       <div className="flex gap-5 text-[#F2F2F3] font-semibold mt-5">
         <p className="pt-1 text-[18px]">
           <IoIosMail />
         </p>
-        <p>Michael_standerfer@aol.com</p>
+        <p>b_engineering@gmail.com</p>
       </div>
     </div>
   </div>
@@ -86,12 +83,12 @@ const Footer = () => {
       Business Hours
     </p>
     <p className="text-[#AFA939] mb-3">Opening Days:</p>
-    <p className="font-semibold">Monday - Fridays: 9am to 20pm</p>
+    <p className="font-semibold">Monday - Fridays: 8am to 5pm</p>
     <p className="font-semibold">Saturday: 9am-17pm</p>
   </div>
 </div>
 <div className="mt-12 text-center text-gray-300 text-md font-semibold">
-  Copyright&copy;{new Date().getFullYear()} ProAttorney. All Rights Reserved.
+  Copyright&copy;{new Date().getFullYear()} BuabeyEngineering. All Rights Reserved.
 </div>
 
     </div>
