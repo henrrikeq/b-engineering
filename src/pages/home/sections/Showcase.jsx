@@ -7,7 +7,7 @@ const Showcase = () => {
         <p className="text-[#f97a2b] text-[18px] font-extrabold">What we do</p>
         <p className="text-[2rem] text-[#494949] font-bold">Our Services</p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 px-4 md:px-8 lg:px-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-x-1 gap-y-4 px-4 md:px-8 lg:px-16">
         {[
           {
             img: "./src/assets/images/agric.webp",
@@ -36,15 +36,15 @@ const Showcase = () => {
         ].map((service, index) => (
           <div
             key={index}
-            className={`border-[0.5px] h-auto w-[80%] flex flex-col items-center p-4 shadow-md rounded-2xl ${
+            className={`border-[0.5px] h-auto sm:h-auto md:h-auto w-[90%] flex flex-col items-center p-4 pb-8 sm:pb-4 mt-4 sm:mt-0 shadow-md rounded-2xl mx-auto ${
               index === 0 || index === 3 ? "bg-[#18486c] border-[#18486c]" : "bg-[#f97a2b] border-[#f97a2b]"
             }`}
           >
-            <div className=" h-24 w-24 mt-5 bg-[#EDF2FA] border-[#EDF2FA] flex items-center justify-center">
+            <div className="h-24 w-24 mt-5 bg-[#EDF2FA] border-[#EDF2FA] flex items-center justify-center">
               <img src={service.img} alt={service.title} />
             </div>
             <p className="text-[19px] font-semibold mt-2 text-white">{service.title}</p>
-            <p className={`text-center w-full mt-2 text-[15px] ${index === 0 || index === 3 ? "text-white" : "text-white"}`}>
+            <p className="text-center w-full mt-2 mb-4 sm:mb-0 text-[15px] text-white">
               {service.description}
             </p>
           </div>
