@@ -36,15 +36,15 @@ const Showcase = () => {
         ].map((service, index) => (
           <div
             key={index}
-            className={`border-[0.5px] h-auto w-full flex flex-col items-center p-4 shadow-md ${
-              index === 0 || index === 3 ? "bg-white border-white" : "bg-[#f97a2b] border-[#f97a2b]"
+            className={`border-[0.5px] h-auto w-[80%] flex flex-col items-center p-4 shadow-md rounded-2xl ${
+              index === 0 || index === 3 ? "bg-[#18486c] border-[#18486c]" : "bg-[#f97a2b] border-[#f97a2b]"
             }`}
           >
             <div className=" h-24 w-24 mt-5 bg-[#EDF2FA] border-[#EDF2FA] flex items-center justify-center">
               <img src={service.img} alt={service.title} />
             </div>
-            <p className="text-[19px] font-semibold mt-2">{service.title}</p>
-            <p className={`text-center w-full mt-2 text-[15px] ${index === 0 || index === 3 ? "text-gray-600" : "text-white"}`}>
+            <p className="text-[19px] font-semibold mt-2 text-white">{service.title}</p>
+            <p className={`text-center w-full mt-2 text-[15px] ${index === 0 || index === 3 ? "text-white" : "text-white"}`}>
               {service.description}
             </p>
           </div>

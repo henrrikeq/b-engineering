@@ -7,14 +7,14 @@ import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-[#222831] py-12 mt-20">
+    <div className="bg-[#18486c] py-12 mt-20">
       <div className="flex flex-col md:flex-row text-white justify-center items-start md:items-start px-4 md:px-0">
   <div className="w-full md:w-[16rem] mb-8 md:mb-0 md:mr-5">
     <p className="text-[1.5rem] font-extrabold mb-8 text-[#FFFFFF]">
       Buabey-Engineering
     </p>
     
-    <p className="text-base mt-8 text-gray-400 font-semibold">
+    <p className="text-base mt-8 text-white font-semibold">
     Choose us for our expert craftsmanship, innovation, and reliability to deliver high-quality agricultural machinery tailored for the palm oil industry.
     </p>
     <div className="flex gap-5 mt-12">
@@ -59,7 +59,7 @@ const Footer = () => {
         <p className="pt-1.5">
           <IoLocationSharp />
         </p>
-        <p className="text-gray-400 font-semibold">
+        <p className="text-white font-semibold">
           29 ABABIO TAKOR LN, 
           CM-0376-9144
         </p>
@@ -82,7 +82,7 @@ const Footer = () => {
     <p className="text-[20px] font-semibold mb-8 text-[#F2F2F3] mt-1">
       Business Hours
     </p>
-    <p className="text-[#AFA939] mb-3">Opening Days:</p>
+    <p className="text-white mb-3">Opening Days:</p>
     <p className="font-semibold">Monday - Fridays: 8am to 5pm</p>
     <p className="font-semibold">Saturday: 9am-17pm</p>
   </div>
