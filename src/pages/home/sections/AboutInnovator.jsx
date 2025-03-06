@@ -22,7 +22,7 @@ const AboutInnovator = () => {
           Meet the Innovator
         </p>
         <p className="text-[1.5rem] md:text-[1.8rem] font-bold mb-5 text-[#494949]">
-          Quality and Affordable Constructor
+          Quality and Affordable Welder
         </p>
 
         {/* Displayed Text */}

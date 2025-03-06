@@ -10,7 +10,7 @@ body, html {
 
   .img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(./assets/images/slider-1.jpg);
+      url(https://res.cloudinary.com/dxggbrrre/image/upload/v1741271382/slider-1_mvz1qo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;

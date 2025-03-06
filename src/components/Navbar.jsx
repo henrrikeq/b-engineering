@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { Cloudinary } from "@cloudinary/url-gen/index";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,21 +9,30 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Close mobile menu when a link is clicked
+  const handleLinkClick = () => {
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+  };
+
   return (
-    <div>
-      <div className="flex justify-between items-center h-20 bg-white text-black fixed w-full px-6 z-50 shadow-sm">
+    <div className="h-20"> {/* Add height here to create space for the fixed navbar */}
+      <div className="flex justify-between items-center h-20 bg-white text-black fixed top-0 w-full px-6 z-50 shadow-sm">
         <nav className="flex items-center gap-2">
-          <img src="./src/assets/images/Logo.jpeg" alt="Logo" className="h-8 w-8 rounded-full" />
+          <Link to="/">
+            <img src="https://res.cloudinary.com/dxggbrrre/image/upload/v1741271461/Logo_zacepf.jpg" alt="Logo" className="h-8 w-8 rounded-full" />
+          </Link>
           <p className="text-lg font-bold">Buabey-Engineering</p>
         </nav>
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Home</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">About</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Innovator</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Services</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Contact</p>
+          <Link to="/" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Home</Link>
+          <Link to="/aboutproduct" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>About</Link>
+          <Link to="/aboutinnovator" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Innovator</Link>
+          <Link to="/showcase" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Services</Link>
+          <Link to="/contact" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Contact</Link>
         </nav>
         
         {/* Mobile Hamburger Button */}
@@ -59,11 +70,11 @@ const Navbar = () => {
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
         <div className="md:hidden fixed top-20 left-0 right-0 bg-white shadow-md z-40 py-4 px-6 flex flex-col space-y-4 border-t">
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Home</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">About</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Innovator</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Services</p>
-          <p className="hover:text-blue-600 cursor-pointer transition-colors">Contact</p>
+          <Link to="/" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Home</Link>
+          <Link to="/aboutproduct" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>About</Link>
+          <Link to="/aboutinnovator" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Innovator</Link>
+          <Link to="/showcase" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Services</Link>
+          <Link to="/contact" className="hover:text-blue-600 cursor-pointer transition-colors" onClick={handleLinkClick}>Contact</Link>
         </div>
       )}
     </div>
