@@ -10,7 +10,7 @@ const AboutInnovator = () => {
       {/* Image Section */}
       <div className="flex justify-center md:mt-9 md:justify-start w-full md:w-1/2">
         <img
-          src="./src/assets/images/about.jpeg"
+          src="https://res.cloudinary.com/dxggbrrre/image/upload/v1741271438/about_ircl9l.jpg"
           alt="About Img"
           className=" md:h-[100vh] lg:h-[90vh] w-full md:w-[38vw] object-cover lg:ml-0 ml-6"
         />

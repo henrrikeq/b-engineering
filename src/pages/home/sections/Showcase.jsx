@@ -10,25 +10,25 @@ const Showcase = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-x-1 gap-y-4 px-4 md:px-8 lg:px-16">
         {[
           {
-            img: "./src/assets/images/agric.webp",
+            img: "https://res.cloudinary.com/dxggbrrre/image/upload/v1741271494/agric_q0mcxe.webp",
             title: "Machinery Fabrication",
             description:
               "Design and manufacture of specialized palm oil processing machines, including digesters, presses, and clarifiers. Tailor-made solutions to meet the unique needs of farmers and processors",
           },
           {
-            img: "./src/assets/images/welding.webp",
+            img: "https://res.cloudinary.com/dxggbrrre/image/upload/v1741271556/welding_ciwu8l.webp",
             title: "Welding & Metal Services",
             description:
               "High-quality welding for agricultural equipment repair and maintenance. Fabrication of durable machine parts and structural components to improve efficiency.",
           },
           {
-            img: "./src/assets/images/repair.webp",
+            img: "https://res.cloudinary.com/dxggbrrre/image/upload/v1741271536/repair_ps9czc.webp",
             title: "Machine Repairs & Maintenance",
             description:
               "Regular servicing and repair of palm oil processing machinery to reduce downtime and extend equipment lifespan. Troubleshooting mechanical issues to ensure smooth and efficient operations.",
           },
           {
-            img: "./src/assets/images/equipment.webp",
+            img: "https://res.cloudinary.com/dxggbrrre/image/upload/v1741271516/equipment_nceifk.webp",
             title: "Equipment Installation & Setup",
             description:
               "Professional assembly and installation of palm oil processing machines. Ensuring machines are properly set up for optimal performance and safety.",
