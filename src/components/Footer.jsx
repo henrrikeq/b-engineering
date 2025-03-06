@@ -50,34 +50,7 @@ const Footer = () => {
       ))}
     </div>
   </div>
-  <div className="w-full md:w-[13rem] mb-8 md:mb-0">
-    <p className="text-[20px] font-semibold mb-8 text-[#F2F2F3] mt-1">
-      Have a Question?
-    </p>
-    <div>
-      <div className="flex gap-5 text-[#F2F2F3] mb-3">
-        <p className="pt-1.5">
-          <IoLocationSharp />
-        </p>
-        <p className="text-white font-semibold">
-          29 ABABIO TAKOR LN, 
-          CM-0376-9144
-        </p>
-      </div>
-      <div className="flex gap-5 text-[#F2F2F3] font-semibold mb-3">
-        <p className="pt-1.5">
-          <BsTelephoneFill />
-        </p>
-        <p>0536978573/ 0559569906</p>
-      </div>
-      <div className="flex gap-5 text-[#F2F2F3] font-semibold mt-5">
-        <p className="pt-1 text-[18px]">
-          <IoIosMail />
-        </p>
-        <p>b_engineering@gmail.com</p>
-      </div>
-    </div>
-  </div>
+  
   <div className="w-full md:w-[15rem] md:ml-10 pl-6">
     <p className="text-[20px] font-semibold mb-8 text-[#F2F2F3] mt-1">
       Business Hours

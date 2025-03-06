@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../../components/Navbar";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center border-2 px-5 py-3 text-[#3d424a] font-extrabold text-[13px] bg-[#f97a2b] border-[#f97a2b] w-[12rem] md:w-[14rem] mt-4 hover:bg-[#f97a2b] hover:border-[#f97a2b] transition duration-300">
-            <p>REQUEST A QUOTE</p>
+            <Link to="/contact">REQUEST A QUOTE</Link>
           </div>
         </div>
       </div>
