@@ -4,7 +4,7 @@ const AboutInnovator = () => {
 
 
   return (
-    <div className="h-[120vh] mt-14 md:mt-40 md:ml-20 mr-7">
+    <div className="h-[120vh]  md:mt-60 md:ml-20 mr-7">
       <p className="flex flex-col items-center text-[2rem] text-[#494949] font-bold">About Innovator</p>
       <div className="flex flex-col md:flex-row ">
       {/* Image Section */}
